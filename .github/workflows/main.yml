@@ -43,7 +43,7 @@ jobs:
           fi
       - name: Run Unit tests.
         run: |
-          bash scripts/travis/goLintChecker.sh
+          bash scripts/travis/unit_test.sh
   build:
     name: Build
     runs-on: ubuntu-latest
